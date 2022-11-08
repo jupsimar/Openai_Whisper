@@ -2,7 +2,9 @@
 Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multi-task model that can perform multilingual speech recognition as well as speech translation and language identification.
 
 ![Encoder Block](https://user-images.githubusercontent.com/82681171/200410284-8b04b7b2-330e-490c-a195-8a00f704441a.png)
-#Setup
+
+# Setup
+
 Using Python 3.9.9 and PyTorch 1.10.1 to train and test our models, but the codebase is expected to be compatible with Python 3.7 or later and recent PyTorch versions. The codebase also depends on a few Python packages, most notably HuggingFace Transformers for their fast tokenizer implementation and ffmpeg-python for reading audio files. The following command will pull and install the latest commit from this repository, along with its Python dependencies
 
 
